@@ -2,53 +2,67 @@ import './App.css'
 
 const Data = [
   {
-    id: 1,
-    name: 'Randy06',
-    image: 'https://randomuser.me/api/portraits/men/44.jpg',
-    points: '57',
+    user: 'Akomolafe Ibrahim Olalekan ',
+    name: 'Chappy',
+    image:
+      'https://res.cloudinary.com/osaz/image/upload/v1659285021/Empower/20220428_122029_-_Moyomi_Fashion_Empire_aun101.jpg',
+    points: '10',
   },
   {
-    id: 2,
-    name: 'James07',
-    image: 'https://randomuser.me/api/portraits/men/31.jpg',
-    points: '23',
+    user: 'Shonuyi Kofoworola',
+    name: 'Rola♥️',
+    image:
+      'https://res.cloudinary.com/osaz/image/upload/v1659285270/Empower/images_1_-_Shonuyi_Kofoworola_yb4iri.jpg',
+    points: '10',
   },
   {
-    id: 3,
-    name: 'Ava01',
-    image: 'https://randomuser.me/api/portraits/women/91.jpg',
-    points: '90',
+    user: 'Oguchi Winifred ',
+    name: 'Iffhy',
+    image:
+      'https://res.cloudinary.com/osaz/image/upload/v1659285378/Empower/Snapchat-26071882_-_Oguchi_Winifred_n1t0uw.jpg',
+    points: '9',
   },
   {
-    id: 4,
-    name: 'Gabriel11',
-    image: 'https://randomuser.me/api/portraits/men/77.jpg',
-    points: '50',
+    user: 'Sowemimo Alamin',
+    name: 'alampopo ',
+    image:
+      'https://res.cloudinary.com/osaz/image/upload/v1659285689/Empower/F13CB74C-0DE7-48A4-8916-AEA6B238CA5B_-_Alamin_Sowemimo_f12ocd.jpg',
+    points: '4',
   },
   {
-    id: 5,
-    name: 'Sandra23',
-    image: 'https://randomuser.me/api/portraits/women/30.jpg',
-    points: '70',
+    user: 'Abdulqudus Adewoye Bankole ',
+    name: 'Hardebhanks',
+    image:
+      'https://res.cloudinary.com/osaz/image/upload/v1659285856/Empower/Snapchat-667724669_-_Qudus_Bankole_jtgoq0.jpg',
+    points: '8',
   },
   {
-    id: 6,
-    name: 'lee4',
-    image: 'https://randomuser.me/api/portraits/women/85.jpg',
-    points: '40',
+    user: 'OLUFEMI Victor DAMILOLA ',
+    name: 'Whizninja',
+    image:
+      'https://res.cloudinary.com/osaz/image/upload/v1659286111/Empower/download3_flgvt4.png',
+    points: '9',
   },
   {
-    id: 7,
-    name: 'Lance23',
-    image: 'https://randomuser.me/api/portraits/men/88.jpg',
-    points: '55',
+    user: 'Akinola Fawaz Ololade',
+    name: 'Phawaaz',
+    image:
+      'http://res.cloudinary.com/osaz/image/upload/v1659286353/Empower/Snapchat-957341371_-_Akinola_Fawaz_ewl9vu.jpg',
+    points: '0',
   },
   {
-    id: 8,
-    name: 'Toyo87',
-    image: 'https://randomuser.me/api/portraits/men/44.jpg',
-    points: '30',
+    user: 'Kalu Queen Onyekachi',
+    name: 'Kwinkalu',
+    image:
+      'https://res.cloudinary.com/osaz/image/upload/v1659286699/Empower/IMG-20220731-WA0008_-_Precious_Kalu_c2p8rn.jpg',
+    points: '4',
   },
+  // {
+  //   user: 'hi',
+  //   name: 'Chappy',
+  //   image: 'hey',
+  //   points: '0',
+  // },
 ]
 const topThree = Data.sort((a, b) => b.points - a.points).slice(0, 3)
 const restOfData = Data.sort((a, b) => b.points - a.points).slice(3)
@@ -79,7 +93,7 @@ function App() {
         </div>
         <div className='list'>
           {restOfData.map((item, i) => (
-            <div className='item' key={item.id}>
+            <div className='item' key={i + 4}>
               <div className='pos'>{i + 4}</div>
               <img src={item.image} alt='' className='pic' />
               <div className='name'>{item.name}</div>
