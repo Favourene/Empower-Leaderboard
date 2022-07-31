@@ -1,38 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Red+Hat+Display:400,900&display=swap');
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+  width: 100%;
   min-height: 100vh;
+  background: #003459;
+  color: #333;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding: 30px 0;
+}
+.center {
+  font-family: 'Red Hat Display', sans-serif;
+  width: 50%;
+}
+.top3 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  color: #003459;
+}
+.top3 .item {
+  box-sizing: border-box;
+  position: relative;
+  background: white;
+  width: 9rem;
+  height: 10rem;
+  text-align: center;
+  padding: 2.8rem 0 0;
+  margin: 1rem 1rem 2rem;
+  border-radius: 0.5rem;
+  transform-origin: bottom;
+  cursor: pointer;
+  transition: transform 200ms ease-in-out;
+  box-shadow: 0 0 4rem 0 rgba(0, 0, 0, 0.1),
+    0 1rem 2rem -1rem rgba(0, 0, 0, 0.3);
+}
+.top3 .item .pic {
+  position: absolute;
+  top: -2rem;
+  left: 2.5rem;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  margin-right: 1rem;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2),
+    0 1rem 1rem -0.5rem rgba(0, 0, 0, 0.3);
+}
+.top3 .item .pos {
+  font-weight: 900;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+.top3 .item .name {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.top3 .item .score:after {
+  display: block;
+  content: 'points';
+}
+.top3 .item.one {
+  width: 10rem;
+  height: 11rem;
+  padding-top: 3.5rem;
+}
+.top3 .item.one .pic {
+  width: 5rem;
+  height: 5rem;
+  left: 2.5rem;
+}
+.top3 .item:hover {
+  transform: scale(1.05);
+}
+.list {
+  padding-left: 2rem;
+  margin: 0 auto;
+}
+.list .item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background: white;
+  height: 3rem;
+  border-radius: 4rem;
+  margin-bottom: 2rem;
+  background: #ceb1be;
+  transform-origin: left;
+  cursor: pointer;
+  transition: transform 200ms ease-in-out;
+  box-shadow: 0 0 4rem 0 rgba(0, 0, 0, 0.1),
+    0 1rem 2rem -1rem rgba(0, 0, 0, 0.3);
+}
+.list .item .pos {
+  font-weight: 900;
+  position: absolute;
+  left: -2rem;
+  text-align: center;
+  font-size: 1.25rem;
+  width: 1.5rem;
   color: white;
+  opacity: 0.6;
+  transition: opacity 200ms ease-in-out;
+}
+.list .item .pic {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  margin-right: 1rem;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2),
+    0 1rem 1rem -0.5rem rgba(0, 0, 0, 0.3);
+}
+.list .item .name {
+  flex-grow: 2;
+  flex-basis: 10rem;
+  font-size: 1.1rem;
+}
+.list .item .score {
+  margin-right: 1.5rem;
+  opacity: 0.5;
+}
+.list .item .score:after {
+  margin-right: 1rem;
+  content: 'points';
+}
+.list .item:hover {
+  transform: scale(1.05);
+}
+.list .item:hover .pos {
+  opacity: 0.8;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media screen and (max-width: 1024px) {
+  .center {
+    width: 80%;
   }
 }
