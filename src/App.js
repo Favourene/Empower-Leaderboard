@@ -57,12 +57,158 @@ const Data = [
       'https://res.cloudinary.com/osaz/image/upload/v1659286699/Empower/IMG-20220731-WA0008_-_Precious_Kalu_c2p8rn.jpg',
     points: '4',
   },
-  // {
-  //   user: 'hi',
-  //   name: 'Chappy',
-  //   image: 'hey',
-  //   points: '0',
-  // },
+  {
+    user: 'Awojobi Sheriffdeen Ayobami',
+    name: '@Ayomi',
+    image:
+      'https://res.cloudinary.com/osaz/image/upload/v1659312150/Empower/Snapchat-1293450082_-_Apex_Monger_i6axph.jpg',
+    points: '0',
+  },
+  {
+    user: 'Adejola samson',
+    name: 'Itzpoopman',
+    image:
+      'https://res.cloudinary.com/osaz/image/upload/v1659312358/Empower/366F25F7-6F22-4127-98F7-6BFEB6D0A3F1_-_Adejola_Samson_pb5v72.jpg',
+    points: '0',
+  },
+  {
+    user: 'Sanni Oluwatobi omobolanle',
+    name: 'Jhayanne',
+    image:
+      'https://res.cloudinary.com/osaz/image/upload/v1659312468/Empower/6641C3B7-EFFF-4DB9-8D29-C4DC5716BB4D_-_Jay_Anne_qqqsnh.jpg',
+    points: '6',
+  },
+  {
+    user: 'Alonge Micah Olufolarin ',
+    name: 'Micahlee',
+    image:
+      'https://res.cloudinary.com/osaz/image/upload/v1659312714/Empower/FB_IMG_16427520872511821_-_Micah_Alonge_h0vefu.jpg',
+    points: '5',
+  },
+  {
+    user: 'Sowunmi Oluwaseunfunmi ',
+    name: 'Seunara247',
+    image:
+      'https://res.cloudinary.com/osaz/image/upload/v1659313061/Empower/94B42CF6-3C4D-4A64-B9D7-DAD2507D8EB0_-_Sowunmi_Oluwaseunfunmi_yrgqsl.jpg',
+    points: '0',
+  },
+  {
+    user: 'Eweje Kabiru Adekunle',
+    name: 'CAPITAL K',
+    image:
+      'https://res.cloudinary.com/osaz/image/upload/v1659313565/Empower/0CD84905-4423-4FA7-AD7E-72DB01522FE3_-_Eweje_Abdulkabir_lq3aww.jpg',
+    points: '4',
+  },
+  {
+    user: 'Boluwatife Damilola Somorin',
+    name: 'Bolumorin',
+    image:
+      'https://res.cloudinary.com/osaz/image/upload/v1659313822/Empower/IMG-20220727-WA0019_-_Boluwatife_Oluwadamilola_krkclv.jpg',
+    points: '2',
+  },
+  {
+    user: 'Oshin Aishat Omolara',
+    name: 'Tahsia',
+    image:
+      'https://res.cloudinary.com/osaz/image/upload/v1659313944/Empower/DB225157-1D12-4180-AE3E-B246039FA2FC_-_Aishat_oshin_adi9yl.jpg',
+    points: '10',
+  },
+  {
+    user: 'Ejide Ayodele David',
+    name: 'Akinfola',
+    image:
+      'https://res.cloudinary.com/osaz/image/upload/v1659314106/Empower/B59915B0-CB37-4BA7-A67B-1FE33FD3F4E0_-_Ayodele_Ejide_hek4hd.jpg',
+    points: '10',
+  },
+  {
+    user: 'Solomon Odunusi',
+    name: 'Zolomon',
+    image:
+      'https://res.cloudinary.com/osaz/image/upload/v1659314243/Empower/IMG_20220102_124653_016_-_Solomon_Odunusi_ikkfwt.jpg',
+    points: '10',
+  },
+  {
+    user: 'Agbakoba Chibuogu ',
+    name: 'Pearl',
+    image:
+      'https://res.cloudinary.com/osaz/image/upload/v1659314524/Empower/9AAA1014-1526-4118-9D74-118CA97943A6_-_Michelle_Chibuogu_jdckad.jpg',
+    points: '0',
+  },
+  {
+    user: 'Okafor Precious Chinazaekpere ',
+    name: 'Hushpresh',
+    image:
+      'https://res.cloudinary.com/osaz/image/upload/v1659314777/Empower/7DA52491-F156-478C-9030-4D50E68D72B1_-_precious_chinazaekpere_arao0l.jpg',
+    points: '4',
+  },
+  {
+    user: 'Oluwadamilare Yusuf',
+    name: 'Dasurf',
+    image:
+      'https://res.cloudinary.com/osaz/image/upload/v1659286112/Empower/download_if339f.png',
+    points: '0',
+  },
+  {
+    user: 'Treasure Jerry-Imahiagbe ',
+    name: 'Rea',
+    image:
+      'https://res.cloudinary.com/osaz/image/upload/v1659315213/Empower/e1f899a87dfc2117a6bfd94d79f4a29c_-_Treasure_Imahiagbe_k6wemy.jpg',
+    points: '5',
+  },
+  {
+    user: 'Wisdom Ovhemerutho-Athe ',
+    name: 'Wizzy',
+    image:
+      'https://res.cloudinary.com/osaz/image/upload/v1659315641/Empower/IMG_20220612_153748_017_2_-_Wisdom_Ovhemerutho-Athe_lpirxz.jpg',
+    points: '8',
+  },
+  {
+    user: 'Bello Deborah',
+    name: 'Debs',
+    image:
+      'https://res.cloudinary.com/osaz/image/upload/v1659286110/Empower/download4_o4rj3k.png',
+    points: '6',
+  },
+  {
+    user: 'Sikiru Ololade ',
+    name: 'Lade🟩',
+    image:
+      'https://res.cloudinary.com/osaz/image/upload/v1659317202/Empower/B7E85AB3-FEA6-4E3B-9255-F68938CA1772_-_Denise_Astbury_aeyjip.jpg',
+    points: '0',
+  },
+  {
+    user: 'Lawal Ajibola ',
+    name: 'Coded_JB',
+    image:
+      'https://res.cloudinary.com/osaz/image/upload/q_73/v1659318378/Empower/FB_IMG_1638859556619_-_lawal_ajibola_samson_finyqb.jpg',
+    points: '0',
+  },
+  {
+    user: 'Akintola Tosin',
+    name: 'Akintola',
+    image:
+      'https://res.cloudinary.com/osaz/image/upload/v1659286110/Empower/download2_syacra.png',
+    points: '10',
+  },
+  {
+    user: 'Atoyebi Taiwo',
+    name: 'Ayotebi',
+    image:
+      'https://res.cloudinary.com/osaz/image/upload/v1659286109/Empower/download5_f4omtl.png',
+    points: '10',
+  },
+  {
+    user: '',
+    name: 'Chappy',
+    image: 'hey',
+    points: '0',
+  },
+  {
+    user: 'hi',
+    name: 'Chappy',
+    image: 'hey',
+    points: '0',
+  },
 ]
 const topThree = Data.sort((a, b) => b.points - a.points).slice(0, 3)
 const restOfData = Data.sort((a, b) => b.points - a.points).slice(3)
