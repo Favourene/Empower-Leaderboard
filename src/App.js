@@ -197,18 +197,27 @@ const Data = [
       'https://res.cloudinary.com/osaz/image/upload/v1659286109/Empower/download5_f4omtl.png',
     points: '10',
   },
-  // {
-  //   user: '',
-  //   name: 'Chappy',
-  //   image: 'hey',
-  //   points: '0',
-  // },
-  // {
-  //   user: 'hi',
-  //   name: 'Chappy',
-  //   image: 'hey',
-  //   points: '0',
-  // },
+  {
+    user: 'Yewande Ajetunmobi ',
+    name: 'Wandey',
+    image:
+      'https://res.cloudinary.com/osaz/image/upload/v1659363287/Empower/IMG-20220609-WA0010_-_Ajetunmobi_Yewande_sbiulc.jpg',
+    points: '0',
+  },
+  {
+    user: 'faith Ajibola',
+    name: 'faithstrings',
+    image:
+      'https://res.cloudinary.com/osaz/image/upload/v1659364104/Empower/PSX_20211209_134902_-_Ajibola_Faith_afn5ur.jpg',
+    points: '0',
+  },
+  {
+    user: 'Adelanwa Zainab Adebimpe',
+    name: 'Zaine',
+    image:
+      'https://res.cloudinary.com/osaz/image/upload/v1659364472/Empower/20220303_112433_-_Zainab_Adelanwa_tph3kl.jpg',
+    points: '3',
+  },
 ]
 const topThree = Data.sort((a, b) => b.points - a.points).slice(0, 3)
 const restOfData = Data.sort((a, b) => b.points - a.points).slice(3)
