@@ -197,18 +197,18 @@ const Data = [
       'https://res.cloudinary.com/osaz/image/upload/v1659286109/Empower/download5_f4omtl.png',
     points: '10',
   },
-  {
-    user: '',
-    name: 'Chappy',
-    image: 'hey',
-    points: '0',
-  },
-  {
-    user: 'hi',
-    name: 'Chappy',
-    image: 'hey',
-    points: '0',
-  },
+  // {
+  //   user: '',
+  //   name: 'Chappy',
+  //   image: 'hey',
+  //   points: '0',
+  // },
+  // {
+  //   user: 'hi',
+  //   name: 'Chappy',
+  //   image: 'hey',
+  //   points: '0',
+  // },
 ]
 const topThree = Data.sort((a, b) => b.points - a.points).slice(0, 3)
 const restOfData = Data.sort((a, b) => b.points - a.points).slice(3)
