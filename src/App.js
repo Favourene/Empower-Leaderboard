@@ -6,35 +6,35 @@ const Data = [
     name: 'Chappy',
     image:
       'https://res.cloudinary.com/osaz/image/upload/v1659285021/Empower/20220428_122029_-_Moyomi_Fashion_Empire_aun101.jpg',
-    points: '22',
+    points: '27',
   },
   {
     user: 'Shonuyi Kofoworola',
     name: 'Rola♥️',
     image:
       'https://res.cloudinary.com/osaz/image/upload/v1659285270/Empower/images_1_-_Shonuyi_Kofoworola_yb4iri.jpg',
-    points: '24',
+    points: '29',
   },
   {
     user: 'Oguchi Winifred ',
     name: 'Iffhy',
     image:
       'https://res.cloudinary.com/osaz/image/upload/v1659285378/Empower/Snapchat-26071882_-_Oguchi_Winifred_n1t0uw.jpg',
-    points: '22',
+    points: '27',
   },
   {
     user: 'Sowemimo Alamin',
     name: 'alampopo ',
     image:
       'https://res.cloudinary.com/osaz/image/upload/v1659285689/Empower/F13CB74C-0DE7-48A4-8916-AEA6B238CA5B_-_Alamin_Sowemimo_f12ocd.jpg',
-    points: '14',
+    points: '19',
   },
   {
     user: 'Abdulqudus Adewoye Bankole ',
     name: 'Hardebhanks',
     image:
       'https://res.cloudinary.com/osaz/image/upload/v1659285856/Empower/Snapchat-667724669_-_Qudus_Bankole_jtgoq0.jpg',
-    points: '15',
+    points: '20',
   },
   {
     user: 'OLUFEMI Victor DAMILOLA ',
@@ -55,7 +55,7 @@ const Data = [
     name: 'Kwinkalu',
     image:
       'https://res.cloudinary.com/osaz/image/upload/v1659286699/Empower/IMG-20220731-WA0008_-_Precious_Kalu_c2p8rn.jpg',
-    points: '13',
+    points: '16',
   },
   {
     user: 'Awojobi Sheriffdeen Ayobami',
@@ -69,14 +69,14 @@ const Data = [
     name: 'Itzpoopman',
     image:
       'https://res.cloudinary.com/osaz/image/upload/v1659312358/Empower/366F25F7-6F22-4127-98F7-6BFEB6D0A3F1_-_Adejola_Samson_pb5v72.jpg',
-    points: '11',
+    points: '16',
   },
   {
     user: 'Sanni Oluwatobi omobolanle',
     name: 'Jhayanne',
     image:
       'https://res.cloudinary.com/osaz/image/upload/v1659312468/Empower/6641C3B7-EFFF-4DB9-8D29-C4DC5716BB4D_-_Jay_Anne_qqqsnh.jpg',
-    points: '20',
+    points: '25',
   },
   {
     user: 'Alonge Micah Olufolarin ',
@@ -90,42 +90,42 @@ const Data = [
     name: 'Seunara247',
     image:
       'https://res.cloudinary.com/osaz/image/upload/v1659313061/Empower/94B42CF6-3C4D-4A64-B9D7-DAD2507D8EB0_-_Sowunmi_Oluwaseunfunmi_yrgqsl.jpg',
-    points: '10',
+    points: '15',
   },
   {
     user: 'Eweje Kabiru Adekunle',
     name: 'CAPITAL K',
     image:
       'https://res.cloudinary.com/osaz/image/upload/v1659313565/Empower/0CD84905-4423-4FA7-AD7E-72DB01522FE3_-_Eweje_Abdulkabir_lq3aww.jpg',
-    points: '17',
+    points: '22',
   },
   {
     user: 'Boluwatife Damilola Somorin',
     name: 'Bolumorin',
     image:
       'https://res.cloudinary.com/osaz/image/upload/v1659313822/Empower/IMG-20220727-WA0019_-_Boluwatife_Oluwadamilola_krkclv.jpg',
-    points: '15',
+    points: '19',
   },
   {
     user: 'Oshin Aishat Omolara',
     name: 'Tahsia',
     image:
       'https://res.cloudinary.com/osaz/image/upload/v1659313944/Empower/DB225157-1D12-4180-AE3E-B246039FA2FC_-_Aishat_oshin_adi9yl.jpg',
-    points: '21',
+    points: '26',
   },
   {
     user: 'Ejide Ayodele David',
     name: 'Akinfola',
     image:
       'https://res.cloudinary.com/osaz/image/upload/v1659314106/Empower/B59915B0-CB37-4BA7-A67B-1FE33FD3F4E0_-_Ayodele_Ejide_hek4hd.jpg',
-    points: '20',
+    points: '25',
   },
   {
     user: 'Solomon Odunusi',
     name: 'Zolomon',
     image:
       'https://res.cloudinary.com/osaz/image/upload/v1659314243/Empower/IMG_20220102_124653_016_-_Solomon_Odunusi_ikkfwt.jpg',
-    points: '25',
+    points: '29',
   },
   {
     user: 'Agbakoba Chibuogu ',
@@ -139,7 +139,7 @@ const Data = [
     name: 'Hushpresh',
     image:
       'https://res.cloudinary.com/osaz/image/upload/v1659314777/Empower/7DA52491-F156-478C-9030-4D50E68D72B1_-_precious_chinazaekpere_arao0l.jpg',
-    points: '17',
+    points: '22',
   },
   {
     user: 'Oluwadamilare Yusuf',
@@ -153,21 +153,21 @@ const Data = [
     name: 'Rea',
     image:
       'https://res.cloudinary.com/osaz/image/upload/v1659315213/Empower/e1f899a87dfc2117a6bfd94d79f4a29c_-_Treasure_Imahiagbe_k6wemy.jpg',
-    points: '17',
+    points: '22',
   },
   {
     user: 'Wisdom Ovhemerutho-Athe ',
     name: 'Wizzy',
     image:
       'https://res.cloudinary.com/osaz/image/upload/v1659315641/Empower/IMG_20220612_153748_017_2_-_Wisdom_Ovhemerutho-Athe_lpirxz.jpg',
-    points: '21',
+    points: '26',
   },
   {
     user: 'Bello Deborah',
     name: 'Debs',
     image:
       'https://res.cloudinary.com/osaz/image/upload/v1659286110/Empower/download4_o4rj3k.png',
-    points: '18',
+    points: '22',
   },
   {
     user: 'Sikiru Ololade ',
@@ -181,14 +181,14 @@ const Data = [
     name: 'Coded_JB',
     image:
       'https://res.cloudinary.com/osaz/image/upload/q_73/v1659318378/Empower/FB_IMG_1638859556619_-_lawal_ajibola_samson_finyqb.jpg',
-    points: '8',
+    points: '13',
   },
   {
     user: 'Akintola Tosin',
     name: 'Akintola',
     image:
       'https://res.cloudinary.com/osaz/image/upload/v1659286110/Empower/download2_syacra.png',
-    points: '13',
+    points: '16',
   },
   {
     user: 'Atoyebi Taiwo',
@@ -202,7 +202,7 @@ const Data = [
     name: 'Wandey',
     image:
       'https://res.cloudinary.com/osaz/image/upload/v1659363287/Empower/IMG-20220609-WA0010_-_Ajetunmobi_Yewande_sbiulc.jpg',
-    points: '13',
+    points: '18',
   },
   {
     user: 'faith Ajibola',
@@ -216,21 +216,21 @@ const Data = [
     name: 'Zaine',
     image:
       'https://res.cloudinary.com/osaz/image/upload/v1659364472/Empower/20220303_112433_-_Zainab_Adelanwa_tph3kl.jpg',
-    points: '17',
+    points: '20',
   },
   {
     user: 'Adedeji Oluwatimileyin ',
     name: 'Adedeji',
     image:
       'https://res.cloudinary.com/osaz/image/upload/v1659286109/Empower/download5_f4omtl.png',
-    points: '14',
+    points: '17',
   },
   {
     user: 'Qasim Gana ',
     name: 'Qasim',
     image:
       'https://res.cloudinary.com/osaz/image/upload/v1659286111/Empower/download3_flgvt4.png',
-    points: '19',
+    points: '23',
   },
   {
     user: 'Fadeelah isah ',
@@ -252,6 +252,13 @@ const Data = [
     image:
       'https://res.cloudinary.com/osaz/image/upload/v1659286112/Empower/download_if339f.png',
     points: '7',
+  },
+  {
+    user: 'Alimi Habeeb Oladimeji',
+    name: 'Alimi',
+    image:
+      'https://res.cloudinary.com/osaz/image/upload/v1659286112/Empower/download_if339f.png',
+    points: '3',
   },
 ]
 const topThree = Data.sort((a, b) => b.points - a.points).slice(0, 3)
