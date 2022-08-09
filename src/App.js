@@ -62,7 +62,7 @@ const Data = [
     name: '@Ayomi',
     image:
       'https://res.cloudinary.com/osaz/image/upload/v1659312150/Empower/Snapchat-1293450082_-_Apex_Monger_i6axph.jpg',
-    points: '6',
+    points: '13',
   },
   {
     user: 'Adejola samson',
