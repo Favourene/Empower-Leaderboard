@@ -6,7 +6,7 @@ const Data = [
     name: 'Hardebhanks',
     image:
       'https://res.cloudinary.com/osaz/image/upload/v1659285856/Empower/Snapchat-667724669_-_Qudus_Bankole_jtgoq0.jpg',
-    points: '48',
+    points: '50',
   },
   {
     user: 'Adedeji Oluwatimileyin ',
